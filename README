@@ -1,0 +1,4 @@
+I released the new versione of qpage, the most light CMS probably, it has a simple -but pretty complete- management and you can use it without big knowledges.
+Now it has also the feed RSS and many other cute things.
+This site is a great demo of my work :)
+Let pass to technical details, it is in PHP totally and support only MYSQL but almost the whole world uses it. Those scripts generate clean XHTML page or XML for feed RSS, sometimes there's a minimal use of JavaScript.
