@@ -1,0 +1,115 @@
+/*
+   This file is part of (C)qpage, do not touch
+   FILE: basic.css
+
+   This is the default theme for the administration.
+   ---------------------------------------------------------------------
+   Author: Ongaro Mattia
+   Begin: lun dec 24 2009
+
+   ---------------------------------------------------------------------
+   (C) Copyright 2009: Ongaro Mattia (see list in AUTHOR.TXT file)
+
+   See LICENSE.TXT file for licensing details.
+*/
+* { margin: 0; padding: 0; }
+body{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Lucida Grande', Arial, sans-serif;
+	font-size: 14px;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+a{
+	color: #0771a6;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+p{
+	padding-bottom: 20px;
+	text-indent: 5px;
+}
+h2{
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	width: 33%;
+}
+#logo{
+	background-image: url('../css/logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	height: 200px;
+	position: relative;
+	width: 100%;
+}
+#menu{
+	list-style: none;
+	width: 100%;
+	height: 20px;
+	padding: 2px;
+	padding-left: 5px;
+	font-size: 16px;
+	background-color: #4a4a4b;
+	border: 1px solid #1d1d1e;
+}
+#menu li {
+	float: left;
+	width: 10em;
+}
+#menu a {
+	display: block;
+}
+#menu li ul {
+	display: none;  
+}
+#menu li:hover ul {
+	display: block;
+	width: 10em;
+	position: absolute;
+	border: 1px solid #1d1d1e;
+}
+#menu li ul li{
+	background-color: #4a4a4b;
+	height: 20px;
+}
+.orange{
+	background: #f6efe0;
+	border: 1px solid #eee4cb;
+	padding: 10px;
+	width: 95%;
+	margin: 2%;
+}
+.act
+{
+	width: 95%;
+	border:1px solid #d9d9d9;
+	background:#f0f0f0;
+	text-align:left;
+	margin: 2%;
+	padding:10px;
+	display: none;
+}
+textarea{
+	width: 95%;
+}
+#copyright
+{
+	clear: both;
+	display: block;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2em 0;
+	text-align: center;
+	width: 54%;
+}
+/* End of admin.css */

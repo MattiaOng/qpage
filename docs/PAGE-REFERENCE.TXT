@@ -1,0 +1,35 @@
+*******************
+* PAGES REFERENCE *
+*******************
+
+-index.php
+-head.php
+-foot.php
+-config.php
+-feed_rss.php
+-install.php
+
+lib-php:
+-article.php
+-ask.php
+-control.php
+-Error.php
+-identity.php
+-manage.php
+-user.php
+-various.php
+
+images:
+-favicon.bmp
+-logo.bmp
+-rss.png
+
+css:
+-style.css
+-admin.css
+-logo.png
+
+-----------
+OTHER INFO
+-----------
+All pages have an intro where is explained what it needs.
