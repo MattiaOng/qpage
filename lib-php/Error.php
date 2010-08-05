@@ -21,7 +21,7 @@
   
   function Error($string)
   {
-	  echo '<b>Error: </b>' . $string . '</body></html>';      
+	  echo '<center><b>Error: </b>' . $string . '</center></body></html>';      
       exit;
   }
   
