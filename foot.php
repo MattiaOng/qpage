@@ -15,7 +15,6 @@
    */
 	echo '</div>';
 
-	require_once 'lib-php/various.php';
 	echo copyright ( );
 ?>
 	</body>
