@@ -14,10 +14,6 @@
    See LICENSE.TXT file for licensing details.
    */
 
-   	require_once 'lib-php/ask.php';
-	control();
-	$request = new ask;
-
    	require_once 'head.php';
 
 	if (isSet($_GET['news'])) {
