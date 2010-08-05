@@ -22,5 +22,13 @@
 	// The password for the account
 	'database_password' 
 	);
+	define ( 'TITLE', 
+	// The home page's title
+	'Qpage Dominion' 
+	);
+	define ( 'HOST', 
+	// The web path of qpage
+	'http://'.$_SERVER['SERVER_NAME'].'/'
+	);
 	/* End of config.php */
 ?>
