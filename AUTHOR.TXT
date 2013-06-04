@@ -3,6 +3,4 @@
 ************
 
 NAME: Ongaro Mattia.
-ALIAS: Shifter, n1ghtmare.
-MAIL: moongaro[AT]gmail[DOT]com
 See license at LICENSE.TXT
